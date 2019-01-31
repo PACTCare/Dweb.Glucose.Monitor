@@ -1,0 +1,45 @@
+.background {
+    background-color: rgb(63, 201, 155);
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    padding-left: 3em;
+    padding-right: 3em;
+    -webkit-box-shadow: 9px 6px 44px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 9px 6px 44px -4px rgba(0,0,0,0.75);
+    box-shadow: 9px 6px 44px -4px rgba(0,0,0,0.75);
+}
+
+blockquote {
+    border-radius: 3px;
+    position: relative;  
+    font-style: italic;
+    text-align: center;
+    padding: 1rem 1.2rem;
+    width: 80%;  
+    color: #4a4a4a;
+    margin: 1rem auto 2rem;
+    color: #4a4a4a;
+    background: #1ab394;
+}
+
+blockquote:before,
+blockquote:after{
+    font-family: FontAwesome;
+    position: absolute;
+    top: 13px;
+    color: #1ab394;
+    font-size: 34px;
+}
+blockquote:before{
+    content: "\f10d";
+    margin-right: 13px;
+    right: 100%;
+}
+blockquote:after{
+    content: "\f10e";
+    margin-left: 13px;
+    left: 100%;  
+}
