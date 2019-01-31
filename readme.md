@@ -22,3 +22,7 @@ Since the FHIR glucose resources are published as JSON onto the MAM stream, the 
 
 ## Further Information
 This project was hosted via dWeb.page (https://pact.online). You can read more about that [here](https://blog.florence.chat/tutorial-how-to-create-your-own-distributed-website-in-just-a-few-seconds-5100ccf068bc)
+
+## License
+
+[MIT License](https://github.com/PACTCare/Dweb.Glucose.Monitor/blob/master/LICENSE) © PACT Care B.V.
