@@ -16,7 +16,7 @@ export const fetchGlucose = () => dispatch => {
     dispatch(requestGlucose());
 
     var reader = new mam.MamReader(
-        "https://node04.iotatoken.nl:443", 
+        "https://trinity.iota-tangle.io:14265", 
         "FEQVD9ATTXAHMGFKXZAWDSHNHNBGNDLXYMXN9PIENQVSPA9JADKEZPNCDMCJTNLXE9SUHXVJTLNKDBYKP", 
         mam.MAM_MODE.RESTRICTED,
         "FAXFOZORGGACJZADQPDTWSLFFIHBJDIEKYMYKURAHYGBMRKARLKCXMMBIMQGG9FA9DHEXZPDIFEN9KSUI"
